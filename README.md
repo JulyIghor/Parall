@@ -75,7 +75,7 @@ Read the full privacy policy at [https://parall.app/privacy](https://parall.app/
 
 ## Credits
 
-Parall is developed by **Ihor July**, the creator of [DockLock Lite](https://apps.apple.com/app/id6446282634) and **DockLock Plus**.  
+Parall is developed by **Ihor July**, the creator of [DockLock Lite and DockLock Plus](https://docklockpro.com).  
 Designed with care to make macOS multitasking simple, efficient, and elegant.
 
 ---
