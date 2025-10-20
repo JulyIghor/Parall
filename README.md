@@ -1,9 +1,9 @@
-# Parall for macOS
+# Parall for macOS - The Parallel App Launcher for macOS
 
 **Run multiple instances of any Mac app - easily, safely, and beautifully.**  
 Create independent app shortcuts that behave like separate apps in your Dock.
 
-🔗 [Visit Website](https://parall.app) | [Download on the Mac App Store](https://apps.apple.com/app/apple-store/id6754065114?pt=127627850&ct=github&mt=8)
+🔗 [Visit Website](https://parall.app) | [Download on the Mac App Store](https://apps.apple.com/app/apple-store/id6754065114?pt=127627850&ct=github&mt=8)
 
 ---
 
