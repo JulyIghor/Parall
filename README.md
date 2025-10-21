@@ -11,6 +11,8 @@ Create independent app shortcuts that behave like separate apps in your Dock.
 
 **Parall** lets you create separate app shortcuts that launch new, independent instances of your existing macOS apps - all without modifying system files or the original app.
 
+Parall is the first macOS app of its kind to do this properly and natively.
+
 Each shortcut is a self-contained `.app` bundle that appears as a separate icon in your Dock.  
 You can use Parall to run multiple copies of browsers, productivity apps, or any other app - with unique settings, arguments, or profiles.
 
@@ -23,6 +25,7 @@ You can use Parall to run multiple copies of browsers, productivity apps, or any
 - **Automatic Updates** - Shortcuts stay in sync when the original app updates.
 - **Custom Command Line Arguments** - Configure per-shortcut options for power users.
 - **Optional Data Storage Separation** - Supported for Chromium-based browsers (Chrome, Edge, Brave, etc.).
+- **Home Directory Override** - Override the HOME environment variable to separate data for more apps.
 - **Fully Offline & Private** - Parall never connects to the Internet or sends data anywhere.
 - **No Background Services** - Nothing runs when you close it.
 - **No System Modifications** - Works entirely within the user space - no scripts, no hacks.
@@ -33,7 +36,7 @@ You can use Parall to run multiple copies of browsers, productivity apps, or any
 
 - Works with **most macOS apps**.
 - Built-in data storage isolation for **Chromium-based browsers**.
-- Other apps can still use custom arguments for manual profile or data path separation.
+- Other apps can still use custom arguments for manual profile or data path separation. You can also override the HOME environment directory, which may help certain apps store their data separately even if they don’t support profile arguments.
 - **Note:** macOS and Apple-provided apps (bundle IDs starting with `com.apple.`) are not supported.
 
 ---
