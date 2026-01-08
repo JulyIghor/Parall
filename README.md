@@ -56,7 +56,7 @@ You can use Parall to run multiple copies of browsers, productivity apps, or any
 
 ## Requirements
 
-- macOS **10.10 (Yosemite)** or newer
+- macOS **10.9 (Mavericks)** or newer
 - Apple Silicon or Intel Mac
 
 ---
