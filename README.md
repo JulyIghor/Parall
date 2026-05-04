@@ -1,4 +1,4 @@
-# Parall for macOS - The Parallel App Launcher
+# Parall for macOS - Multi-Instance App Launcher
 
 **Create independent macOS shortcuts for apps, files, folders, and command-line tools.**  
 Run multiple app instances with separate data and settings, give each shortcut its own Dock icon, and keep everything native, private, and offline.
