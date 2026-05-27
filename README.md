@@ -19,7 +19,7 @@ Parall is designed for workflows where one app is not enough:
 - Multiple native app accounts side by side.
 - Isolated development environments for tools such as VS Code, Cursor, JetBrains apps, Terminal apps, and command-line launchers.
 - Multiple isolated Philips Hue Sync instances with different data folders for different display setups.
-- WhatsApp shortcuts with notifications, unread badges, menu bar background mode, and separate data paths.
+- WhatsApp and Microsoft Teams shortcuts with notifications, unread badges, menu bar background mode, and separate data paths.
 
 Parall works locally, has no telemetry, does not run background services after you quit it, and does not use Electron or a bundled Chrome engine.
 
@@ -36,7 +36,7 @@ Parall works locally, has no telemetry, does not run background services after y
 - **Custom Icons** - Extract icons from apps or files, or choose a custom icon for each shortcut.
 - **Arguments and Environment Variables** - Configure per-shortcut command-line arguments, custom environment variables, working directories, and HOME overrides.
 - **Advanced Info.plist Overrides** - Override selected shortcut bundle parameters for experienced workflows.
-- **WhatsApp Support** - Run WhatsApp through a lightweight native WebKit frame with push notifications, unread badges, optional menu bar background mode, and separate shortcut data paths.
+- **Web Frame App Support** - Run WhatsApp and Microsoft Teams through lightweight native WebKit frames with push notifications, unread badges, optional menu bar background mode, and separate shortcut data paths.
 - **Limited iOS/iPadOS Shortcuts** - On Apple silicon Macs, create limited shortcuts for iOS and iPadOS apps. These can launch and receive arguments or environment variables, but cannot separate data or provide a dedicated Dock icon.
 - **No System Modifications** - Parall does not alter system files, target app bundles, or app binaries.
 - **Private by Design** - No telemetry, no background daemons, and no network requests from Parall itself.
@@ -54,7 +54,7 @@ Verified or specially handled app families include:
 - ToDesktop-based apps and many Electron-style desktop apps.
 - Eclipse-based apps, JetBrains apps, Android Studio, VS Code, Cursor, OpenAI Codex, Windsurf, DBeaver, Sublime Text, Sublime Merge, iTerm2, Ghostty, Terminal-style apps, and other developer tools.
 - Communication and productivity apps such as Slack, Discord, Telegram Desktop, Viber, Signal, Notion, Claude, Beeper Desktop, Spark Desktop, Evernote, Dropbox, Anki, OBS, Philips Hue Sync, Spotify, Zoom, and many more.
-- WhatsApp through Parall's native WebKit web frame.
+- WhatsApp and Microsoft Teams through Parall's native WebKit web frames.
 
 Sandboxed Mac App Store apps are partially supported. They can often be launched as shortcuts, but macOS keeps their data inside the system container, so custom data or HOME redirection is not available.
 
@@ -73,7 +73,7 @@ For the current compatibility table, see [parall.app/compatibility](https://para
 - Shortcuts point to the original app bundle, so when the original app updates, the shortcut uses the updated app after restart.
 - On macOS 11 and older, newly created shortcuts may require manual signing before they can be launched normally.
 - Some apps with built-in updaters may need macOS App Management permission when launched from a shortcut. Parall recommends granting this only to the shortcut instance you use for target-app updates.
-- WhatsApp support uses the system Safari/WebKit engine, not Electron or bundled Chrome.
+- WhatsApp and Microsoft Teams support use the system Safari/WebKit engine, not Electron or bundled Chrome.
 
 ---
 
@@ -94,7 +94,7 @@ Parall is privacy-friendly by design:
 - Makes no network requests from the Parall app itself.
 - Runs no background services after you quit it.
 
-Shortcuts that launch online services still use whatever network access those target services require. For example, a WhatsApp shortcut connects to WhatsApp Web because it runs `web.whatsapp.com`.
+Shortcuts that launch online services still use whatever network access those target services require. For example, WhatsApp and Microsoft Teams shortcuts connect to their corresponding web services because they run through native WebKit web frames.
 
 The website uses [Plausible Analytics](https://plausible.io/), a privacy-respecting, cookie-free analytics tool.
 
